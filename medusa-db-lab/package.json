@@ -1,0 +1,21 @@
+{
+  "name": "medusa-db-lab",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@medusajs/cli": "2.15.3",
+    "@medusajs/framework": "2.15.3",
+    "@medusajs/medusa": "2.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "ts-node": "10.9.2",
+    "typescript": "6.0.3"
+  }
+}
