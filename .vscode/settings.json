@@ -5,17 +5,6 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/__pycache__/**": true,
-        "[!p]*/**": true,
-        "p[!a]*/**": true,
-        "pa[!y]*/**": true,
-        "pay[!l]*/**": true,
-        "payl[!o]*/**": true,
-        "paylo[!a]*/**": true,
-        "payloa[!d]*/**": true,
-        "payload[!-]*/**": true,
-        "payload-[!l]*/**": true,
-        "payload-l[!a]*/**": true,
-        "payload-la[!b]*/**": true
+        "**/__pycache__/**": true
     }
 }

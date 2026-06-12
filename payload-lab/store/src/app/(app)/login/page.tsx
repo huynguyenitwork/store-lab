@@ -18,7 +18,7 @@ export default async function Login() {
   if (user) {
     redirect(`/account?warning=${encodeURIComponent('You are already logged in.')}`)
   }
-
+  console.log("admin login")
   return (
     <div className="container">
       <div className="max-w-xl mx-auto my-12">

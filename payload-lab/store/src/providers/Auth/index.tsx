@@ -118,6 +118,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   useEffect(() => {
     const fetchMe = async () => {
       try {
+        console.log('loaded')
         const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/api/users/me`, {
           credentials: 'include',
           headers: {
@@ -125,7 +126,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           },
           method: 'GET',
         })
-
+        console.log('loaded 2')
         if (res.ok) {
           const { user: meUser } = await res.json()
           setUser(meUser || null)
