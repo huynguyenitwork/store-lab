@@ -1,0 +1,2 @@
+be-dev:
+    pnpm run backend:dev

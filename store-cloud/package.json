@@ -1,11 +1,13 @@
 {
   "name": "store-cloud",
   "private": false,
-  "packageManager": "npm@11.9.0",
+  "packageManager": "pnpm@10.32.1",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
+    "migrate": "pnpm --filter @dtc/backend exec medusa db:migrate",
+    "create:user": "pnpm --filter @dtc/backend exec medusa user -e phuhuy.hnm@gmail.com -p Khong3119Nam",
     "dev": "turbo dev",
     "build": "turbo build",
     "start": "turbo start",
@@ -19,11 +21,22 @@
     "overrides": {
       "@types/react": "19.0.5",
       "@types/react-dom": "19.0.5"
-    }
+    },
+    "ignoredBuiltDependencies": [
+      "@medusajs/telemetry",
+      "msgpackr-extract",
+      "protobufjs"
+    ],
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
   },
   "devDependencies": {
-    "turbo": "^2.0.14",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.14"
   },
   "workspaces": [
     "apps/**",
