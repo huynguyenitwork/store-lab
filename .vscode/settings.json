@@ -1,0 +1,4 @@
+{
+    "store-cloud":"postgresql://neondb_owner:npg_flWHdC6ZM8NA@ep-floral-queen-aormxuwp-pooler.c-2.ap-southeast-1.aws.neon.tech/store-cloud?sslmode=require&channel_binding=require"
+}
+
