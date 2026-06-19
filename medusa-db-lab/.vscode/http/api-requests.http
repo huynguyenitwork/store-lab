@@ -1,0 +1,638 @@
+# Generated from OpenAPI Specification
+# Title: Imported from HAR
+# Version: 1.0.0
+
+@baseUrl = http://localhost:9000
+
+###
+
+# http://localhost:9000/auth/user/emailpass
+# Operation ID: httplocalhost9000authuseremailpass
+
+POST {{baseUrl}}/auth/user/emailpass
+:authority: Excepteur quis ut labore in
+:method: deserunt voluptat
+:path: dolore officia ad sunt tempor
+:scheme: sed
+accept-encoding: amet o
+accept-language: nul
+content-length: laborum officia in
+dnt: occaecat e
+origin: 
+priority: ex ullamco commodo pa
+referer: esse sint
+sec-ch-ua: la
+sec-ch-ua-mobile: eu culpa 
+sec-ch-ua-platform: officia consequat v
+sec-fetch-dest: ex occaecat Ut irure 
+sec-fetch-mode: elit ad
+sec-fetch-site: in
+user-agent: anim
+x-medusa-locale: aliqua in incididunt
+Content-Type: application/json
+
+
+###
+
+# http://localhost:9000/auth/session
+# Operation ID: httplocalhost9000authsession
+
+POST {{baseUrl}}/auth/session
+:authority: ut occaecat veniam Ut in
+:method: sint
+:path: in laboris consequ
+:scheme: nisi sit eu ex
+accept-encoding: Lorem dolor au
+accept-language: aliquip in
+content-length: do
+dnt: dolor sed
+origin: consequat in
+priority: enim
+referer: eu pariatur qui occaecat
+sec-ch-ua: in
+sec-ch-ua-mobile: ut aute
+sec-ch-ua-platform: proident Duis incididu
+sec-fetch-dest: e
+sec-fetch-mode: sed pariatur in mollit exercitation
+sec-fetch-site: sed quis ipsum
+user-agent: commodo do Duis nulla
+x-medusa-locale: nisi
+
+###
+
+# http://localhost:9000/admin/users/me
+# Operation ID: httplocalhost9000adminusersme
+
+GET {{baseUrl}}/admin/users/me
+:authority: velit nisi aute ullamco sed
+:method: tempor ea
+:path: Excepteur qu
+:scheme: magna
+accept-encoding: sed dolore commodo elit consectetur
+accept-language: sint est esse sunt
+dnt: tempor dolor ullamco
+priority: enim
+referer: laboris aliqua incididun
+sec-ch-ua: laborum
+sec-ch-ua-mobile: non proident
+sec-ch-ua-platform: officia exerc
+sec-fetch-dest: esse sed
+sec-fetch-mode: velit
+sec-fetch-site: Duis reprehenderit
+user-agent: dolore non eiusmod ea est
+x-medusa-locale: fugiat non esse
+
+###
+
+# http://localhost:9000/admin/stores
+# Operation ID: httplocalhost9000adminstores
+
+GET {{baseUrl}}/admin/stores
+:authority: aute ea
+:method: adipisicing in laboris pariatur tempor
+:path: nulla pariatur
+:scheme: in Lorem incidi
+accept-encoding: laborum u
+accept-language: qui
+dnt: tempor irure
+priority: deserunt non
+referer: consequat cillum in in
+sec-ch-ua: sint
+sec-ch-ua-mobile: sunt aliquip incididunt
+sec-ch-ua-platform: veniam culpa eu mollit
+sec-fetch-dest: qui dolor ut culpa
+sec-fetch-mode: eiusmod
+sec-fetch-site: Excepteur
+user-agent: cillum
+x-medusa-locale: cupidatat adipisicing sunt pariatur
+
+###
+
+# http://localhost:9000/admin/notifications?limit=1&offset=0&fields=created_at
+# Operation ID: httplocalhost9000adminnotificationslimit1offset0fieldscreated_at
+
+GET {{baseUrl}}/admin/notifications?limit=Lorem%20Ut%20&offset=ipsum%20qui%20reprehenderit&fields=qui%20labore%20id
+:authority: aute laborum
+:method: ipsum proident deserunt ut id
+:path: exercitation et Duis consequat ad
+:scheme: nisi dolore ex id
+accept-encoding: in
+accept-language: sit consequat amet
+dnt: tempor Excepteur
+priority: com
+referer: laboris
+sec-ch-ua: cupid
+sec-ch-ua-mobile: consequat culpa aute sunt dolor
+sec-ch-ua-platform: sunt
+sec-fetch-dest: consectetur eu
+sec-fetch-mode: reprehe
+sec-fetch-site: sed dolor
+user-agent: ut dolor
+x-medusa-locale: est minim sed eu magna
+
+###
+
+# http://localhost:9000/admin/orders?fields=id%2Cstatus%2Ccreated_at%2Cemail%2Cdisplay_id%2Ccustom_display_id%2Cpayment_status%2Cfulfillment_status%2Ctotal%2Ccurrency_code%2C%2Acustomer%2C%2Asales_channel%2C%2Apayment_collections&limit=20&offset=0&order=-created_at
+# Operation ID: httplocalhost9000adminordersfieldsid2Cstatus2Ccreated_at2Cemail2Cdisplay_id2Ccustom_display_id2Cpayment_status2Cfulfillment_status2Ctotal2Ccurrency_code2C2Acustomer2C2Asales_channel2C2Apayment_collectionslimit20offset0order_created_at
+
+GET {{baseUrl}}/admin/orders?fields=velit%20voluptate%20est%20minim%20a&limit=ex%20fugiat%20eiusmod%20labore%20officia&offset=occa&order=Duis%20proident%20elit%20id
+:authority: in ad quis
+:method: Lorem irure proide
+:path: Lorem dolor m
+:scheme: voluptate mollit magna re
+accept-encoding: Ut
+accept-language: in fugiat irure esse elit
+dnt: irure ullamco laborum dolor
+priority: culpa tempor dolor
+referer: do incididunt in no
+sec-ch-ua: magna laborum amet non
+sec-ch-ua-mobile: magna non
+sec-ch-ua-platform: ea qui laborum
+sec-fetch-dest: nulla dolor co
+sec-fetch-mode: deserunt ut id aliqua tempor
+sec-fetch-site: d
+user-agent: eiusmod mollit
+x-medusa-locale: nostrud in dolore anim tempor
+
+###
+
+# http://localhost:9000/admin/regions?limit=1000&fields=id%2Cname
+# Operation ID: httplocalhost9000adminregionslimit1000fieldsid2Cname
+
+GET {{baseUrl}}/admin/regions?limit=&fields=consectetur%20ullamco%20mollit
+:authority: est in Ut
+:method: elit Lorem do
+:path: ipsum rep
+:scheme: do magna occaecat
+accept-encoding: dolo
+accept-language: Lorem ad ut anim
+dnt: consequ
+priority: ea velit ut
+referer: cupidatat labore elit dolore
+sec-ch-ua: Excepteur sit culpa consectetur consequat
+sec-ch-ua-mobile: in non fugiat
+sec-ch-ua-platform: sit dolor reprehenderit non
+sec-fetch-dest: sunt ea anim est
+sec-fetch-mode: occ
+sec-fetch-site: officia
+user-agent: Ut occaecat ut fugiat deserunt
+x-medusa-locale: laborum Dui
+
+###
+
+# http://localhost:9000/admin/sales-channels?limit=1000&fields=id%2Cname
+# Operation ID: httplocalhost9000adminsales_channelslimit1000fieldsid2Cname
+
+GET {{baseUrl}}/admin/sales-channels?limit=eu%20adipisicing&fields=minim%20c
+:authority: magna minim sint dolore in
+:method: in culpa in
+:path: do
+:scheme: dolore aliquip
+accept-encoding: mollit no
+accept-language: consectetur in
+dnt: in reprehenderit
+priority: pariatur et
+referer: in commodo amet anim repr
+sec-ch-ua: mollit id
+sec-ch-ua-mobile: sunt ad reprehenderit
+sec-ch-ua-platform: cupidatat ut quis labore
+sec-fetch-dest: sint in magna
+sec-fetch-mode: consequat
+sec-fetch-site: cillum
+user-agent: tempor mollit sint
+x-medusa-locale: laboris et con
+
+###
+
+# http://localhost:9000/admin/products?q=&limit=3&fields=id%2Ctitle%2Cthumbnail%2C-type%2C-collection%2C-options%2C-tags%2C-images%2C-variants%2C-sales_channels
+# Operation ID: httplocalhost9000adminproductsqlimit3fieldsid2Ctitle2Cthumbnail2C_type2C_collection2C_options2C_tags2C_images2C_variants2C_sales_channels
+
+GET {{baseUrl}}/admin/products?q=s&limit=an&fields=Excepteur%20c
+:authority: consectetu
+:method: cillum laboris irure
+:path: nostrud Excepteur sunt velit oc
+:scheme: deserun
+accept-encoding: do deserunt qui nisi in
+accept-language: Lorem
+dnt: sed
+priority: Duis
+referer: laborum ut culpa exerc
+sec-ch-ua: magna anim
+sec-ch-ua-mobile: deserunt
+sec-ch-ua-platform: est consequat eu ullamco
+sec-fetch-dest: consequat tempor in quis culpa
+sec-fetch-mode: in proident magna
+sec-fetch-site: sint eiusmod ut nulla
+user-agent: incididunt o
+x-medusa-locale: esse 
+
+###
+
+# http://localhost:9000/admin/product-variants?q=&limit=3&fields=id%2Ctitle%2Csku%2Cproduct_id
+# Operation ID: httplocalhost9000adminproduct_variantsqlimit3fieldsid2Ctitle2Csku2Cproduct_id
+
+GET {{baseUrl}}/admin/product-variants?q=cillum&limit=veniam%20ex%20enim%20minim%20incididunt&fields=qui%20ipsum%20amet%20nulla
+:authority: minim commodo
+:method: et sed
+:path: dolor
+:scheme: eu fugiat dolore in
+accept-encoding: consequat
+accept-language: repreh
+dnt: mollit dolore minim
+priority: fugi
+referer: in dolore et irure ullam
+sec-ch-ua: ut ir
+sec-ch-ua-mobile: ull
+sec-ch-ua-platform: nostrud laboris irure voluptate est
+sec-fetch-dest: mollit anim commodo
+sec-fetch-mode: commodo deserunt irure
+sec-fetch-site: i
+user-agent: pariatur aliqua conse
+x-medusa-locale: eu voluptate laborum sit id
+
+###
+
+# http://localhost:9000/admin/product-categories?limit=3&fields=id%2Cname
+# Operation ID: httplocalhost9000adminproduct_categorieslimit3fieldsid2Cname
+
+GET {{baseUrl}}/admin/product-categories?limit=pariatur&fields=consectetur%20in%20n
+:authority: dolor elit dolo
+:method: irure
+:path: Excepteur pariatur ipsu
+:scheme: proident
+accept-encoding: elit anim
+accept-language: eiusmod reprehenderit aliqu
+dnt: est oc
+priority: qui al
+referer: do esse
+sec-ch-ua: consequat labore
+sec-ch-ua-mobile: Duis non amet in
+sec-ch-ua-platform: laboris laborum nulla
+sec-fetch-dest: officia ullamco vo
+sec-fetch-mode: in anim
+sec-fetch-site: nostrud dolore est deserunt
+user-agent: do
+x-medusa-locale: pariatur consequat ad i
+
+###
+
+# http://localhost:9000/admin/collections?q=&limit=3&fields=id%2Ctitle
+# Operation ID: httplocalhost9000admincollectionsqlimit3fieldsid2Ctitle
+
+GET {{baseUrl}}/admin/collections?q=magna&limit=mollit%20esse&fields=ut%20eu%20incid
+:authority: nostrud minim dolore 
+:method: ipsum Duis exercitation
+:path: velit ipsum magna e
+:scheme: fugiat
+accept-encoding: aute
+accept-language: incididunt proident culpa et
+dnt: nostru
+priority: in
+referer: aliqua ut aliquip fugiat
+sec-ch-ua: do
+sec-ch-ua-mobile: consequat lab
+sec-ch-ua-platform: minim ipsum deserunt
+sec-fetch-dest: tempor in
+sec-fetch-mode: in quis pariatur minim
+sec-fetch-site: laboris Ut
+user-agent: elit magna anim
+x-medusa-locale: in
+
+###
+
+# http://localhost:9000/admin/customers?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+# Operation ID: httplocalhost9000admincustomersqlimit3fieldsid2Cemail2Cfirst_name2Clast_name
+
+GET {{baseUrl}}/admin/customers?q=dolore&limit=ipsum%20non%20esse%20Ut%20ul&fields=culpa
+:authority: consectetur
+:method: exercitation reprehenderit
+:path: officia
+:scheme: aliquip consectetur sunt ad commodo
+accept-encoding: minim
+accept-language: sint Excepteur Ut ex
+dnt: proident cillum
+priority: non dolore pariatur null
+referer: minim
+sec-ch-ua: amet n
+sec-ch-ua-mobile: exercitation ut reprehenderit voluptate
+sec-ch-ua-platform: enim
+sec-fetch-dest: non nulla
+sec-fetch-mode: irure Lorem qui culpa in
+sec-fetch-site: nostrud enim sit ullamco do
+user-agent: dolor
+x-medusa-locale: reprehen
+
+###
+
+# http://localhost:9000/admin/customer-groups?q=&limit=3&fields=id%2Cname
+# Operation ID: httplocalhost9000admincustomer_groupsqlimit3fieldsid2Cname
+
+GET {{baseUrl}}/admin/customer-groups?q=aliquip%20Lorem%20am&limit=aliqua&fields=in%20nostrud%20minim%20veniam%20mollit
+:authority: enim pariatur Ut si
+:method: mollit esse
+:path: nulla eiusmod exer
+:scheme: in voluptate tempor amet es
+accept-encoding: sint Excep
+accept-language: in fugiat dolore ut
+dnt: mollit enim
+priority: magna cillum
+referer: consequ
+sec-ch-ua: re
+sec-ch-ua-mobile: eiusmod Duis do e
+sec-ch-ua-platform: ullamco sit
+sec-fetch-dest: sunt moll
+sec-fetch-mode: do
+sec-fetch-site: qui iru
+user-agent: officia consectetur
+x-medusa-locale: reprehenderit culpa
+
+###
+
+# http://localhost:9000/admin/inventory-items?q=&limit=3&fields=id%2Ctitle%2Csku
+# Operation ID: httplocalhost9000admininventory_itemsqlimit3fieldsid2Ctitle2Csku
+
+GET {{baseUrl}}/admin/inventory-items?q=pariatur%20amet&limit=enim%20e&fields=sit%20est%20consectetur
+:authority: quis fugiat dolor aute
+:method: ipsum
+:path: elit
+:scheme: irure
+accept-encoding: sint in enim Duis
+accept-language: in sit
+dnt: incididunt magna qui
+priority: irure ea amet
+referer: aliqua adipisicing dolore proiden
+sec-ch-ua: nisi in
+sec-ch-ua-mobile: incididunt minim cupidatat
+sec-ch-ua-platform: do voluptate dolor Ut
+sec-fetch-dest: es
+sec-fetch-mode: nulla exercitatio
+sec-fetch-site: occaecat enim
+user-agent: aliqua dol
+x-medusa-locale: ea labore
+
+###
+
+# http://localhost:9000/admin/promotions?q=&limit=3&fields=id%2Ccode%2Cstatus
+# Operation ID: httplocalhost9000adminpromotionsqlimit3fieldsid2Ccode2Cstatus
+
+GET {{baseUrl}}/admin/promotions?q=lab&limit=dolor%20cupidatat%20pariatur%20in&fields=aliqua%20exercitation%20ea%20est%20q
+:authority: ex
+:method: et consectetur qui
+:path: dolor
+:scheme: Lorem
+accept-encoding: eiusmod esse
+accept-language: in sint quis sunt
+dnt: officia velit
+priority: in Duis veniam sint velit
+referer: Duis labore nisi commodo quis
+sec-ch-ua: deserunt exercitation
+sec-ch-ua-mobile: ea dolore nostrud ex
+sec-ch-ua-platform: magna voluptate
+sec-fetch-dest: deserunt eu ipsum cillu
+sec-fetch-mode: cillum ut
+sec-fetch-site: cillum minim anim mollit dolor
+user-agent: officia aliqua
+x-medusa-locale: velit proident
+
+###
+
+# http://localhost:9000/admin/campaigns?q=&limit=3&fields=id%2Cname
+# Operation ID: httplocalhost9000admincampaignsqlimit3fieldsid2Cname
+
+GET {{baseUrl}}/admin/campaigns?q=in%20pariatur%20culpa%20es&limit=in&fields=dolore
+:authority: nisi sint labore in aute
+:method: in in et anim in
+:path: cillum culpa dolor aliqua
+:scheme: in
+accept-encoding: id Duis elit e
+accept-language: pariatur mollit fugiat dolor nulla
+dnt: ut voluptate labore esse
+priority: in fugiat non reprehenderit anim
+referer: fugiat qui
+sec-ch-ua: Excepteur velit est
+sec-ch-ua-mobile: sunt laborum cillum adipisicing eiusmod
+sec-ch-ua-platform: tempor dolor ex proi
+sec-fetch-dest: l
+sec-fetch-mode: nostrud
+sec-fetch-site: l
+user-agent: in deserunt Ut
+x-medusa-locale: aute n
+
+###
+
+# http://localhost:9000/admin/price-lists?q=&limit=3&fields=id%2Ctitle
+# Operation ID: httplocalhost9000adminprice_listsqlimit3fieldsid2Ctitle
+
+GET {{baseUrl}}/admin/price-lists?q=in&limit=enim&fields=ex%20id%20est%20sed
+:authority: si
+:method: cillum exercitation dolore ullamco
+:path: esse eius
+:scheme: nostrud reprehenderit aute dolore non
+accept-encoding: aliquip
+accept-language: id
+dnt: do nisi dolore velit id
+priority: pariatur
+referer: amet
+sec-ch-ua: officia velit ea et
+sec-ch-ua-mobile: ullamco laboris d
+sec-ch-ua-platform: sit cillum Duis Excepteur ad
+sec-fetch-dest: commodo au
+sec-fetch-mode: labore aliqua
+sec-fetch-site: et
+user-agent: ipsum sit laboris magna
+x-medusa-locale: labore consequat sit 
+
+###
+
+# http://localhost:9000/admin/users?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+# Operation ID: httplocalhost9000adminusersqlimit3fieldsid2Cemail2Cfirst_name2Clast_name
+
+GET {{baseUrl}}/admin/users?q=occaecat%20commodo&limit=aliquip%20sed%20enim%20cupidatat&fields=velit%20Excepteur%20enim%20sint
+:authority: aute ut
+:method: ut nulla tempor
+:path: nostrud ea pariatur
+:scheme: pariatur tempor
+accept-encoding: irure ullamco magna
+accept-language: ea deseru
+dnt: mollit proident
+priority: sunt eiusmod officia
+referer: dolor velit ipsum
+sec-ch-ua: proident dolor
+sec-ch-ua-mobile: ea
+sec-ch-ua-platform: deserunt
+sec-fetch-dest: officia nostrud
+sec-fetch-mode: sed nis
+sec-fetch-site: ea
+user-agent: ad
+x-medusa-locale: sed nisi reprehenderit
+
+###
+
+# http://localhost:9000/admin/tax-regions?q=&limit=3&fields=id%2Ccountry_code%2Cprovince_code
+# Operation ID: httplocalhost9000admintax_regionsqlimit3fieldsid2Ccountry_code2Cprovince_code
+
+GET {{baseUrl}}/admin/tax-regions?q=repre&limit=qui&fields=laboris%20do%20aliquip
+:authority: nisi anim dolor velit eu
+:method: voluptate
+:path: ullamco
+:scheme: exercitation d
+accept-encoding: aliqua mollit consequat
+accept-language: consectetur
+dnt: dolore no
+priority: qui aliquip veniam nisi amet
+referer: exercitation eiusmod a
+sec-ch-ua: in ex qui non incididunt
+sec-ch-ua-mobile: Excepteur eu anim
+sec-ch-ua-platform: qui Ut voluptate
+sec-fetch-dest: id et Duis minim fugiat
+sec-fetch-mode: consecte
+sec-fetch-site: est
+user-agent: ad ullamco incididunt conse
+x-medusa-locale: ea cillum amet aute
+
+###
+
+# http://localhost:9000/admin/return-reasons?q=&limit=3&fields=id%2Clabel%2Cvalue
+# Operation ID: httplocalhost9000adminreturn_reasonsqlimit3fieldsid2Clabel2Cvalue
+
+GET {{baseUrl}}/admin/return-reasons?q=dolore%20nulla&limit=dolor&fields=cu
+:authority: in fugiat culpa
+:method: deserunt ea nostrud consectet
+:path: ex
+:scheme: consectetur
+accept-encoding: proident labore voluptate in
+accept-language: reprehenderit
+dnt: fugiat veniam labor
+priority: in
+referer: cupida
+sec-ch-ua: qui consequat commod
+sec-ch-ua-mobile: voluptat
+sec-ch-ua-platform: sit incididunt
+sec-fetch-dest: 
+sec-fetch-mode: in quis deserunt aliqua
+sec-fetch-site: Duis dolor n
+user-agent: ipsum cupidatat in
+x-medusa-locale: do
+
+###
+
+# http://localhost:9000/admin/product-types?q=&limit=3&fields=id%2Cvalue
+# Operation ID: httplocalhost9000adminproduct_typesqlimit3fieldsid2Cvalue
+
+GET {{baseUrl}}/admin/product-types?q=dolor%20et%20aute%20ullamco&limit=Excepteur%20occaecat%20labore%20irure%20sed&fields=ut%20nulla%20inci
+:authority: tempor sed in l
+:method: est L
+:path: elit
+:scheme: nostrud
+accept-encoding: irure eiu
+accept-language: sint sunt
+dnt: fugiat occaecat in
+priority: voluptate
+referer: sint
+sec-ch-ua: Duis enim Lorem
+sec-ch-ua-mobile: sint ut non laboris su
+sec-ch-ua-platform: exercitation laboris s
+sec-fetch-dest: in exercitation quis
+sec-fetch-mode: sed reprehenderit do
+sec-fetch-site: commodo nostr
+user-agent: non aliqua
+x-medusa-locale: nulla
+
+###
+
+# http://localhost:9000/admin/product-tags?q=&limit=3&fields=id%2Cvalue
+# Operation ID: httplocalhost9000adminproduct_tagsqlimit3fieldsid2Cvalue
+
+GET {{baseUrl}}/admin/product-tags?q=deserunt%20sit&limit=proident%20officia%20do&fields=sit
+:authority: Duis
+:method: ad mollit
+:path: dolore dolor
+:scheme: Excepteur ad
+accept-encoding: consequat
+accept-language: nisi adipisicing Ut
+dnt: labore voluptate des
+priority: est
+referer: ut mollit
+sec-ch-ua: est volupt
+sec-ch-ua-mobile: ad
+sec-ch-ua-platform: elit dolor eu 
+sec-fetch-dest: sint
+sec-fetch-mode: adipisicing ipsum culpa proident la
+sec-fetch-site: qui
+user-agent: in ut
+x-medusa-locale: velit
+
+###
+
+# http://localhost:9000/admin/stock-locations?q=&limit=3&fields=id%2Cname
+# Operation ID: httplocalhost9000adminstock_locationsqlimit3fieldsid2Cname
+
+GET {{baseUrl}}/admin/stock-locations?q=non%20eli&limit=o&fields=ipsum%20deserunt%20mollit
+:authority: 
+:method: nulla deserunt
+:path: culpa nisi laborum amet
+:scheme: culpa
+accept-encoding: reprehenderit commodo
+accept-language: minim
+dnt: sint et nisi aliq
+priority: mollit dolor ex consequat
+referer: nostrud Duis a
+sec-ch-ua: reprehenderit dolor ame
+sec-ch-ua-mobile: aliquip dolore dolor
+sec-ch-ua-platform: reprehenderit nulla Excepteur
+sec-fetch-dest: id 
+sec-fetch-mode: sed lab
+sec-fetch-site: eiusmod
+user-agent: ut
+x-medusa-locale: enim aute est
+
+###
+
+# http://localhost:9000/admin/shipping-profiles?q=&limit=3&fields=id%2Cname
+# Operation ID: httplocalhost9000adminshipping_profilesqlimit3fieldsid2Cname
+
+GET {{baseUrl}}/admin/shipping-profiles?q=in%20eu%20ad%20labore%20&limit=s&fields=Duis
+:authority: veniam aute occaecat
+:method: consequat aliquip l
+:path: sit deserunt dolor
+:scheme: eu
+accept-encoding: nostrud proident in nulla al
+accept-language: sint amet nost
+dnt: ex con
+priority: tempor eiusmod ea consectetur
+referer: deserunt pariatur
+sec-ch-ua: labore proident magna
+sec-ch-ua-mobile: cupidatat Ut consectetu
+sec-ch-ua-platform: aute non ut cu
+sec-fetch-dest: non sed
+sec-fetch-mode: nostrud
+sec-fetch-site: et dolore reprehenderit in
+user-agent: officia
+x-medusa-locale: ut tempor deserunt
+
+###
+
+# http://localhost:9000/admin/api-keys?q=&limit=3&fields=id%2Ctitle%2Credacted&type=publishable
+# Operation ID: httplocalhost9000adminapi_keysqlimit3fieldsid2Ctitle2Credactedtypepublishable
+
+GET {{baseUrl}}/admin/api-keys?q=tempor%20esse&limit=mag&fields=exercitation%20sint%20culpa%20dolor&type=ad
+:authority: ullamco sit
+:method: commodo Lorem c
+:path: elit esse lab
+:scheme: aliqua
+accept-encoding: occaec
+accept-language: 
+dnt: non sint
+priority: esse Lorem
+referer: sit deserunt
+sec-ch-ua: proide
+sec-ch-ua-mobile: et 
+sec-ch-ua-platform: occaeca
+sec-fetch-dest: cillum
+sec-fetch-mode: voluptate v
+sec-fetch-site: cillum sit fugiat
+user-agent: deserunt incididunt
+x-medusa-locale: elit
+
+###
+

@@ -1,0 +1,11 @@
+{
+  "rest-client.environmentVariables": {
+    "dev": {
+      "backend": "http://localhost:9000",
+      "email": "phuhuy.hnm@gmail.com",
+      "password": "Khong3119Nam",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3Rvcl9pZCI6InVzZXJfMDFLVjRTODBSTVk2RFlRMUo1WFBUWVY5TVMiLCJhY3Rvcl90eXBlIjoidXNlciIsImF1dGhfaWRlbnRpdHlfaWQiOiJhdXRoaWRfMDFLVjRTODBaODJQSDEyWTZKQjI2WTlYM0EiLCJhdXRoX3Byb3ZpZGVyIjoiZW1haWxwYXNzIiwiYXBwX21ldGFkYXRhIjp7InVzZXJfaWQiOiJ1c2VyXzAxS1Y0UzgwUk1ZNkRZUTFKNVhQVFlWOU1TIn0sInVzZXJfbWV0YWRhdGEiOnt9LCJpYXQiOjE3ODE1OTY4MTIsImV4cCI6MTc4MTY4MzIxMn0.gRW2bDSLLoKHE8QsdrZ-9ZaGpWE09aBCxX8NzXpA4VQ",
+      "cookie": "connect.sid=s%3Ani1RIllLPUyXMqD_kje5wFc829jroxFr.kxrp24Nfmvv0cMoYgPamx%2BYTrUTHV%2F2D4Fz9Zeqz%2Bss; Path=/; Expires=Tue, 16 Jun 2026 18:08:42 GMT; HttpOnly"
+    }
+  }
+}

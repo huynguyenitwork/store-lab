@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@medusajs/cli": "2.15.3",
+    "@medusajs/draft-order": "2.15.3",
     "@medusajs/framework": "2.15.3",
     "@medusajs/medusa": "2.15.3"
   },

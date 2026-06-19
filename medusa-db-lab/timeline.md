@@ -206,4 +206,18 @@ You can learn about all of the compiler options at https://aka.ms/tsc
 * module compile lai  `commonjs` và `esm` là  `node16` -> `nodenext`
 ## 4. cấu hình kết nối
 * tham khảo: https://docs.medusajs.com/learn/configurations/medusa-config
-* 
+## 5. muốn gọi api admin 
+* tham khảo: https://docs.medusajs.com/learn/configurations/medusa-config#admin-configurations-admin
+## 5.1. đăng ký user medusa
+### 5.1.1 package yêu cầu
+```bash
+pnpm add @medusajs/draft-order@2.15.3
+```
+### 5.1.2 tạo user
+* tạo user bằng cli
+`medusa user -e phuhuy.hnm@gmail.com -p Khong3119Nam`
+* sau khi tạo user thông tin sẽ được lưu tại các bảng
+  *  `user` (User Module) lưu thông tin user: id, email, first_name, last_name, avatar_url...
+  *  `auth_identity` + `provider_identity` (Auth Module) — lưu thông tin đăng nhập (hash password, provider...)
+### 5.1.3 xác thực
+* tham khảo: https://docs.medusajs.com/api/admin#authentication

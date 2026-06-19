@@ -1,0 +1,3325 @@
+openapi: 3.1.0
+info:
+  title: Imported from HAR
+  version: 1.0.0
+paths:
+  /auth/user/emailpass:
+    post:
+      summary: http://localhost:9000/auth/user/emailpass
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000authuseremailpass
+      parameters:
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: POST
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /auth/user/emailpass
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: content-length
+          in: header
+          schema:
+            type: string
+          example: '58'
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: origin
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/login
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            example:
+              email: phuhuy.hnm@gmail.com
+              password: Khong3119Nam
+  /auth/session:
+    post:
+      summary: http://localhost:9000/auth/session
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000authsession
+      parameters:
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: POST
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /auth/session
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: content-length
+          in: header
+          schema:
+            type: string
+          example: '0'
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: origin
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/login
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/users/me:
+    get:
+      summary: http://localhost:9000/admin/users/me
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminusersme
+      parameters:
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/users/me
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/stores:
+    get:
+      summary: http://localhost:9000/admin/stores
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminstores
+      parameters:
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/stores
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/notifications:
+    get:
+      summary: >-
+        http://localhost:9000/admin/notifications?limit=1&offset=0&fields=created_at
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminnotificationslimit1offset0fieldscreated_at
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '1'
+        - name: offset
+          in: query
+          schema:
+            type: string
+          example: '0'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: created_at
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/notifications?limit=1&offset=0&fields=created_at
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/orders:
+    get:
+      summary: >-
+        http://localhost:9000/admin/orders?fields=id%2Cstatus%2Ccreated_at%2Cemail%2Cdisplay_id%2Ccustom_display_id%2Cpayment_status%2Cfulfillment_status%2Ctotal%2Ccurrency_code%2C%2Acustomer%2C%2Asales_channel%2C%2Apayment_collections&limit=20&offset=0&order=-created_at
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000adminordersfieldsid2Cstatus2Ccreated_at2Cemail2Cdisplay_id2Ccustom_display_id2Cpayment_status2Cfulfillment_status2Ctotal2Ccurrency_code2C2Acustomer2C2Asales_channel2C2Apayment_collectionslimit20offset0order_created_at
+      parameters:
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: >-
+            id%2Cstatus%2Ccreated_at%2Cemail%2Cdisplay_id%2Ccustom_display_id%2Cpayment_status%2Cfulfillment_status%2Ctotal%2Ccurrency_code%2C%2Acustomer%2C%2Asales_channel%2C%2Apayment_collections
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '20'
+        - name: offset
+          in: query
+          schema:
+            type: string
+          example: '0'
+        - name: order
+          in: query
+          schema:
+            type: string
+          example: '-created_at'
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/orders?fields=id%2Cstatus%2Ccreated_at%2Cemail%2Cdisplay_id%2Ccustom_display_id%2Cpayment_status%2Cfulfillment_status%2Ctotal%2Ccurrency_code%2C%2Acustomer%2C%2Asales_channel%2C%2Apayment_collections&limit=20&offset=0&order=-created_at
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/regions:
+    get:
+      summary: http://localhost:9000/admin/regions?limit=1000&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminregionslimit1000fieldsid2Cname
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '1000'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/regions?limit=1000&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/sales-channels:
+    get:
+      summary: http://localhost:9000/admin/sales-channels?limit=1000&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminsales_channelslimit1000fieldsid2Cname
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '1000'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/sales-channels?limit=1000&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/products:
+    get:
+      summary: >-
+        http://localhost:9000/admin/products?q=&limit=3&fields=id%2Ctitle%2Cthumbnail%2C-type%2C-collection%2C-options%2C-tags%2C-images%2C-variants%2C-sales_channels
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000adminproductsqlimit3fieldsid2Ctitle2Cthumbnail2C_type2C_collection2C_options2C_tags2C_images2C_variants2C_sales_channels
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: >-
+            id%2Ctitle%2Cthumbnail%2C-type%2C-collection%2C-options%2C-tags%2C-images%2C-variants%2C-sales_channels
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/products?q=&limit=3&fields=id%2Ctitle%2Cthumbnail%2C-type%2C-collection%2C-options%2C-tags%2C-images%2C-variants%2C-sales_channels
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/product-variants:
+    get:
+      summary: >-
+        http://localhost:9000/admin/product-variants?q=&limit=3&fields=id%2Ctitle%2Csku%2Cproduct_id
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000adminproduct_variantsqlimit3fieldsid2Ctitle2Csku2Cproduct_id
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ctitle%2Csku%2Cproduct_id
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/product-variants?q=&limit=3&fields=id%2Ctitle%2Csku%2Cproduct_id
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/product-categories:
+    get:
+      summary: http://localhost:9000/admin/product-categories?limit=3&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminproduct_categorieslimit3fieldsid2Cname
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/product-categories?limit=3&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/collections:
+    get:
+      summary: http://localhost:9000/admin/collections?q=&limit=3&fields=id%2Ctitle
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000admincollectionsqlimit3fieldsid2Ctitle
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ctitle
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/collections?q=&limit=3&fields=id%2Ctitle
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/customers:
+    get:
+      summary: >-
+        http://localhost:9000/admin/customers?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000admincustomersqlimit3fieldsid2Cemail2Cfirst_name2Clast_name
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cemail%2Cfirst_name%2Clast_name
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/customers?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/customer-groups:
+    get:
+      summary: http://localhost:9000/admin/customer-groups?q=&limit=3&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000admincustomer_groupsqlimit3fieldsid2Cname
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/customer-groups?q=&limit=3&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/inventory-items:
+    get:
+      summary: >-
+        http://localhost:9000/admin/inventory-items?q=&limit=3&fields=id%2Ctitle%2Csku
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000admininventory_itemsqlimit3fieldsid2Ctitle2Csku
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ctitle%2Csku
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/inventory-items?q=&limit=3&fields=id%2Ctitle%2Csku
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/promotions:
+    get:
+      summary: >-
+        http://localhost:9000/admin/promotions?q=&limit=3&fields=id%2Ccode%2Cstatus
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminpromotionsqlimit3fieldsid2Ccode2Cstatus
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ccode%2Cstatus
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/promotions?q=&limit=3&fields=id%2Ccode%2Cstatus
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/campaigns:
+    get:
+      summary: http://localhost:9000/admin/campaigns?q=&limit=3&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000admincampaignsqlimit3fieldsid2Cname
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/campaigns?q=&limit=3&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/price-lists:
+    get:
+      summary: http://localhost:9000/admin/price-lists?q=&limit=3&fields=id%2Ctitle
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminprice_listsqlimit3fieldsid2Ctitle
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ctitle
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/price-lists?q=&limit=3&fields=id%2Ctitle
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/users:
+    get:
+      summary: >-
+        http://localhost:9000/admin/users?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminusersqlimit3fieldsid2Cemail2Cfirst_name2Clast_name
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cemail%2Cfirst_name%2Clast_name
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/users?q=&limit=3&fields=id%2Cemail%2Cfirst_name%2Clast_name
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/tax-regions:
+    get:
+      summary: >-
+        http://localhost:9000/admin/tax-regions?q=&limit=3&fields=id%2Ccountry_code%2Cprovince_code
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000admintax_regionsqlimit3fieldsid2Ccountry_code2Cprovince_code
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ccountry_code%2Cprovince_code
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/tax-regions?q=&limit=3&fields=id%2Ccountry_code%2Cprovince_code
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/return-reasons:
+    get:
+      summary: >-
+        http://localhost:9000/admin/return-reasons?q=&limit=3&fields=id%2Clabel%2Cvalue
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminreturn_reasonsqlimit3fieldsid2Clabel2Cvalue
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Clabel%2Cvalue
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/return-reasons?q=&limit=3&fields=id%2Clabel%2Cvalue
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/product-types:
+    get:
+      summary: http://localhost:9000/admin/product-types?q=&limit=3&fields=id%2Cvalue
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminproduct_typesqlimit3fieldsid2Cvalue
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cvalue
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/product-types?q=&limit=3&fields=id%2Cvalue
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/product-tags:
+    get:
+      summary: http://localhost:9000/admin/product-tags?q=&limit=3&fields=id%2Cvalue
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminproduct_tagsqlimit3fieldsid2Cvalue
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cvalue
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/product-tags?q=&limit=3&fields=id%2Cvalue
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/stock-locations:
+    get:
+      summary: http://localhost:9000/admin/stock-locations?q=&limit=3&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminstock_locationsqlimit3fieldsid2Cname
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/stock-locations?q=&limit=3&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/shipping-profiles:
+    get:
+      summary: >-
+        http://localhost:9000/admin/shipping-profiles?q=&limit=3&fields=id%2Cname
+      responses:
+        '200':
+          description: Successful response
+      operationId: httplocalhost9000adminshipping_profilesqlimit3fieldsid2Cname
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Cname
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: /admin/shipping-profiles?q=&limit=3&fields=id%2Cname
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+  /admin/api-keys:
+    get:
+      summary: >-
+        http://localhost:9000/admin/api-keys?q=&limit=3&fields=id%2Ctitle%2Credacted&type=publishable
+      responses:
+        '200':
+          description: Successful response
+      operationId: >-
+        httplocalhost9000adminapi_keysqlimit3fieldsid2Ctitle2Credactedtypepublishable
+      parameters:
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: string
+          example: '3'
+        - name: fields
+          in: query
+          schema:
+            type: string
+          example: id%2Ctitle%2Credacted
+        - name: type
+          in: query
+          schema:
+            type: string
+          example: publishable
+        - name: ':authority'
+          in: header
+          schema:
+            type: string
+          example: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+        - name: ':method'
+          in: header
+          schema:
+            type: string
+          example: GET
+        - name: ':path'
+          in: header
+          schema:
+            type: string
+          example: >-
+            /admin/api-keys?q=&limit=3&fields=id%2Ctitle%2Credacted&type=publishable
+        - name: ':scheme'
+          in: header
+          schema:
+            type: string
+          example: https
+        - name: accept-encoding
+          in: header
+          schema:
+            type: string
+          example: gzip, deflate, br, zstd
+        - name: accept-language
+          in: header
+          schema:
+            type: string
+          example: vi,en-US;q=0.9,en;q=0.8
+        - name: dnt
+          in: header
+          schema:
+            type: string
+          example: '1'
+        - name: priority
+          in: header
+          schema:
+            type: string
+          example: u=1, i
+        - name: referer
+          in: header
+          schema:
+            type: string
+          example: http://localhost:9000/app/orders
+        - name: sec-ch-ua
+          in: header
+          schema:
+            type: string
+          example: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+        - name: sec-ch-ua-mobile
+          in: header
+          schema:
+            type: string
+          example: '?0'
+        - name: sec-ch-ua-platform
+          in: header
+          schema:
+            type: string
+          example: '"Windows"'
+        - name: sec-fetch-dest
+          in: header
+          schema:
+            type: string
+          example: empty
+        - name: sec-fetch-mode
+          in: header
+          schema:
+            type: string
+          example: cors
+        - name: sec-fetch-site
+          in: header
+          schema:
+            type: string
+          example: same-origin
+        - name: user-agent
+          in: header
+          schema:
+            type: string
+          example: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+        - name: x-medusa-locale
+          in: header
+          schema:
+            type: string
+servers:
+  - url: http://localhost:9000
+x-hoppscotch-dropped-requests:
+  - tagPath: null
+    request:
+      v: '17'
+      name: >-
+        http://localhost:9000/admin/orders?q=&limit=3&fields=id%2Cdisplay_id%2Cemail
+      method: GET
+      endpoint: http://localhost:9000/admin/orders
+      params:
+        - key: q
+          value: ''
+          active: true
+          description: ''
+        - key: limit
+          value: '3'
+          active: true
+          description: ''
+        - key: fields
+          value: id%2Cdisplay_id%2Cemail
+          active: true
+          description: ''
+      headers:
+        - key: ':authority'
+          value: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+          active: true
+          description: ''
+        - key: ':method'
+          value: GET
+          active: true
+          description: ''
+        - key: ':path'
+          value: /admin/orders?q=&limit=3&fields=id%2Cdisplay_id%2Cemail
+          active: true
+          description: ''
+        - key: ':scheme'
+          value: https
+          active: true
+          description: ''
+        - key: accept-encoding
+          value: gzip, deflate, br, zstd
+          active: true
+          description: ''
+        - key: accept-language
+          value: vi,en-US;q=0.9,en;q=0.8
+          active: true
+          description: ''
+        - key: dnt
+          value: '1'
+          active: true
+          description: ''
+        - key: priority
+          value: u=1, i
+          active: true
+          description: ''
+        - key: referer
+          value: http://localhost:9000/app/orders
+          active: true
+          description: ''
+        - key: sec-ch-ua
+          value: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+          active: true
+          description: ''
+        - key: sec-ch-ua-mobile
+          value: '?0'
+          active: true
+          description: ''
+        - key: sec-ch-ua-platform
+          value: '"Windows"'
+          active: true
+          description: ''
+        - key: sec-fetch-dest
+          value: empty
+          active: true
+          description: ''
+        - key: sec-fetch-mode
+          value: cors
+          active: true
+          description: ''
+        - key: sec-fetch-site
+          value: same-origin
+          active: true
+          description: ''
+        - key: user-agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+          active: true
+          description: ''
+        - key: x-medusa-locale
+          value: ''
+          active: true
+          description: ''
+      preRequestScript: ''
+      testScript: ''
+      auth: &ref_0
+        authType: none
+        authActive: true
+      body:
+        contentType: null
+        body: null
+      requestVariables: []
+      responses: {}
+      _ref_id: req_mqggcj2k_9a15839f-d044-45ee-a0a9-b35394589c14
+      description: null
+  - tagPath: null
+    request:
+      v: '17'
+      name: http://localhost:9000/admin/regions?q=&limit=3&fields=id%2Cname
+      method: GET
+      endpoint: http://localhost:9000/admin/regions
+      params:
+        - key: q
+          value: ''
+          active: true
+          description: ''
+        - key: limit
+          value: '3'
+          active: true
+          description: ''
+        - key: fields
+          value: id%2Cname
+          active: true
+          description: ''
+      headers:
+        - key: ':authority'
+          value: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+          active: true
+          description: ''
+        - key: ':method'
+          value: GET
+          active: true
+          description: ''
+        - key: ':path'
+          value: /admin/regions?q=&limit=3&fields=id%2Cname
+          active: true
+          description: ''
+        - key: ':scheme'
+          value: https
+          active: true
+          description: ''
+        - key: accept-encoding
+          value: gzip, deflate, br, zstd
+          active: true
+          description: ''
+        - key: accept-language
+          value: vi,en-US;q=0.9,en;q=0.8
+          active: true
+          description: ''
+        - key: dnt
+          value: '1'
+          active: true
+          description: ''
+        - key: priority
+          value: u=1, i
+          active: true
+          description: ''
+        - key: referer
+          value: http://localhost:9000/app/orders
+          active: true
+          description: ''
+        - key: sec-ch-ua
+          value: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+          active: true
+          description: ''
+        - key: sec-ch-ua-mobile
+          value: '?0'
+          active: true
+          description: ''
+        - key: sec-ch-ua-platform
+          value: '"Windows"'
+          active: true
+          description: ''
+        - key: sec-fetch-dest
+          value: empty
+          active: true
+          description: ''
+        - key: sec-fetch-mode
+          value: cors
+          active: true
+          description: ''
+        - key: sec-fetch-site
+          value: same-origin
+          active: true
+          description: ''
+        - key: user-agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+          active: true
+          description: ''
+        - key: x-medusa-locale
+          value: ''
+          active: true
+          description: ''
+      preRequestScript: ''
+      testScript: ''
+      auth: *ref_0
+      body:
+        contentType: null
+        body: null
+      requestVariables: []
+      responses: {}
+      _ref_id: req_mqggcj2k_068f6771-dd4b-42d1-8b2a-b85552d6ff6e
+      description: null
+  - tagPath: null
+    request:
+      v: '17'
+      name: http://localhost:9000/admin/sales-channels?q=&limit=3&fields=id%2Cname
+      method: GET
+      endpoint: http://localhost:9000/admin/sales-channels
+      params:
+        - key: q
+          value: ''
+          active: true
+          description: ''
+        - key: limit
+          value: '3'
+          active: true
+          description: ''
+        - key: fields
+          value: id%2Cname
+          active: true
+          description: ''
+      headers:
+        - key: ':authority'
+          value: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+          active: true
+          description: ''
+        - key: ':method'
+          value: GET
+          active: true
+          description: ''
+        - key: ':path'
+          value: /admin/sales-channels?q=&limit=3&fields=id%2Cname
+          active: true
+          description: ''
+        - key: ':scheme'
+          value: https
+          active: true
+          description: ''
+        - key: accept-encoding
+          value: gzip, deflate, br, zstd
+          active: true
+          description: ''
+        - key: accept-language
+          value: vi,en-US;q=0.9,en;q=0.8
+          active: true
+          description: ''
+        - key: dnt
+          value: '1'
+          active: true
+          description: ''
+        - key: priority
+          value: u=1, i
+          active: true
+          description: ''
+        - key: referer
+          value: http://localhost:9000/app/orders
+          active: true
+          description: ''
+        - key: sec-ch-ua
+          value: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+          active: true
+          description: ''
+        - key: sec-ch-ua-mobile
+          value: '?0'
+          active: true
+          description: ''
+        - key: sec-ch-ua-platform
+          value: '"Windows"'
+          active: true
+          description: ''
+        - key: sec-fetch-dest
+          value: empty
+          active: true
+          description: ''
+        - key: sec-fetch-mode
+          value: cors
+          active: true
+          description: ''
+        - key: sec-fetch-site
+          value: same-origin
+          active: true
+          description: ''
+        - key: user-agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+          active: true
+          description: ''
+        - key: x-medusa-locale
+          value: ''
+          active: true
+          description: ''
+      preRequestScript: ''
+      testScript: ''
+      auth: *ref_0
+      body:
+        contentType: null
+        body: null
+      requestVariables: []
+      responses: {}
+      _ref_id: req_mqggcj2k_e9a1701e-2ec3-4a5e-80c4-f7947ea832d9
+      description: null
+  - tagPath: null
+    request:
+      v: '17'
+      name: >-
+        http://localhost:9000/admin/api-keys?q=&limit=3&fields=id%2Ctitle%2Credacted&type=secret
+      method: GET
+      endpoint: http://localhost:9000/admin/api-keys
+      params:
+        - key: q
+          value: ''
+          active: true
+          description: ''
+        - key: limit
+          value: '3'
+          active: true
+          description: ''
+        - key: fields
+          value: id%2Ctitle%2Credacted
+          active: true
+          description: ''
+        - key: type
+          value: secret
+          active: true
+          description: ''
+      headers:
+        - key: ':authority'
+          value: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+          active: true
+          description: ''
+        - key: ':method'
+          value: GET
+          active: true
+          description: ''
+        - key: ':path'
+          value: /admin/api-keys?q=&limit=3&fields=id%2Ctitle%2Credacted&type=secret
+          active: true
+          description: ''
+        - key: ':scheme'
+          value: https
+          active: true
+          description: ''
+        - key: accept-encoding
+          value: gzip, deflate, br, zstd
+          active: true
+          description: ''
+        - key: accept-language
+          value: vi,en-US;q=0.9,en;q=0.8
+          active: true
+          description: ''
+        - key: dnt
+          value: '1'
+          active: true
+          description: ''
+        - key: priority
+          value: u=1, i
+          active: true
+          description: ''
+        - key: referer
+          value: http://localhost:9000/app/orders
+          active: true
+          description: ''
+        - key: sec-ch-ua
+          value: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+          active: true
+          description: ''
+        - key: sec-ch-ua-mobile
+          value: '?0'
+          active: true
+          description: ''
+        - key: sec-ch-ua-platform
+          value: '"Windows"'
+          active: true
+          description: ''
+        - key: sec-fetch-dest
+          value: empty
+          active: true
+          description: ''
+        - key: sec-fetch-mode
+          value: cors
+          active: true
+          description: ''
+        - key: sec-fetch-site
+          value: same-origin
+          active: true
+          description: ''
+        - key: user-agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+          active: true
+          description: ''
+        - key: x-medusa-locale
+          value: ''
+          active: true
+          description: ''
+      preRequestScript: ''
+      testScript: ''
+      auth: *ref_0
+      body:
+        contentType: null
+        body: null
+      requestVariables: []
+      responses: {}
+      _ref_id: req_mqggcj2k_600f37d8-7899-4b89-82fd-b2fb66d4673f
+      description: null
+  - tagPath: null
+    request:
+      v: '17'
+      name: >-
+        http://localhost:9000/admin/notifications?limit=1&offset=0&fields=created_at
+      method: GET
+      endpoint: http://localhost:9000/admin/notifications
+      params:
+        - key: limit
+          value: '1'
+          active: true
+          description: ''
+        - key: offset
+          value: '0'
+          active: true
+          description: ''
+        - key: fields
+          value: created_at
+          active: true
+          description: ''
+      headers:
+        - key: ':authority'
+          value: ominous-computing-machine-xr594r77jqj6297w6-9000.app.github.dev
+          active: true
+          description: ''
+        - key: ':method'
+          value: GET
+          active: true
+          description: ''
+        - key: ':path'
+          value: /admin/notifications?limit=1&offset=0&fields=created_at
+          active: true
+          description: ''
+        - key: ':scheme'
+          value: https
+          active: true
+          description: ''
+        - key: accept-encoding
+          value: gzip, deflate, br, zstd
+          active: true
+          description: ''
+        - key: accept-language
+          value: vi,en-US;q=0.9,en;q=0.8
+          active: true
+          description: ''
+        - key: dnt
+          value: '1'
+          active: true
+          description: ''
+        - key: if-none-match
+          value: W/"33-fAHcUByMjlg9tm81mcr2Y8fObPU"
+          active: true
+          description: ''
+        - key: priority
+          value: u=1, i
+          active: true
+          description: ''
+        - key: referer
+          value: http://localhost:9000/app/orders
+          active: true
+          description: ''
+        - key: sec-ch-ua
+          value: '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"'
+          active: true
+          description: ''
+        - key: sec-ch-ua-mobile
+          value: '?0'
+          active: true
+          description: ''
+        - key: sec-ch-ua-platform
+          value: '"Windows"'
+          active: true
+          description: ''
+        - key: sec-fetch-dest
+          value: empty
+          active: true
+          description: ''
+        - key: sec-fetch-mode
+          value: cors
+          active: true
+          description: ''
+        - key: sec-fetch-site
+          value: same-origin
+          active: true
+          description: ''
+        - key: user-agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/148.0.0.0 Safari/537.36
+          active: true
+          description: ''
+        - key: x-medusa-locale
+          value: ''
+          active: true
+          description: ''
+      preRequestScript: ''
+      testScript: ''
+      auth: *ref_0
+      body:
+        contentType: null
+        body: null
+      requestVariables: []
+      responses: {}
+      _ref_id: req_mqggcj2k_25c97b7f-2385-42ae-bb75-64af57c1c8a4
+      description: null
